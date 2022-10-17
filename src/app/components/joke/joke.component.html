@@ -1,0 +1,9 @@
+<div>
+    <p>{{joke.value}}</p>
+    <app-button (btnClick)="getJoke()" [text]="jokeBtnText"></app-button>
+    <app-button (btnClick)="saveJoke()" text="Save"></app-button>
+    <app-button (btnClick)="deleteAllJokes()" text="Delete All Jokes" color="warn"></app-button>
+</div>
+<div>
+    <app-table [dataSource]=allJokes></app-table>
+</div>
