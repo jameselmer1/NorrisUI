@@ -2,7 +2,7 @@
 
 **Note:** This app must be running on `http://localhost:4200/` to interact with the C# services layer in the ChuckNorrisService Repo because of the Service Layer CORS settings.
 
-If nothing seems to be working, please check the console.  Most likely, there is an invalid cert for the service URL which is running as https.  There will be an error like "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID."  Please navigate to https://localhost:44386/api/v1/ChuckNorrisJokes (while that API is running) and click "proceed to localhost (unsafe)" to allow the connection to the API.
+If nothing seems to be working, please check the console.  Most likely, there is an invalid cert for the service URL which is running as https.  There will be an error like "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID."  Please navigate to https://localhost:44386/api/v1/ChuckNorrisJokes (while that API is running) and click "proceed to localhost (unsafe)" to allow the connection to the API.  Refresh the page to clear the console exceptions if you like.
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
