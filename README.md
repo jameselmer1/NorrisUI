@@ -1,4 +1,4 @@
-# ChuckJoke
+# Norris UI
 
 **Note:** This app must be running on `http://localhost:4200/` to interact with the C# services layer in the ChuckNorrisService Repo because of the Service Layer CORS settings.
 
