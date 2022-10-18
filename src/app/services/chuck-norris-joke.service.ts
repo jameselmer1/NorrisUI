@@ -1,19 +1,17 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-
 import { Observable, of } from 'rxjs';
 import { catchError, tap } from 'rxjs/operators';
-
 import { Joke } from '../Joke';
 
 @Injectable({
   providedIn: 'root'
 })
+
 export class ChuckNorrisJokeService {
   private chuckApiRoot = 'https://localhost:44386/api/v1/ChuckNorrisJokes';
   private chuckGetUrl = this.chuckApiRoot + '/next';
    
-
   httpOptions = {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })
   };

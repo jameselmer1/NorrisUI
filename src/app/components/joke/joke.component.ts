@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Joke } from '../../Joke';
-
 import { ChuckNorrisJokeService } from '../../services/chuck-norris-joke.service';
 
 @Component({
@@ -23,7 +22,7 @@ export class JokeComponent implements OnInit {
     this.jokeService.getJoke()
       .subscribe((joke) => {
         this.joke = joke;
-        this.jokeBtnText = "Next Joke";
+        this.jokeBtnText = 'Next Joke';
       });
   }
 
@@ -43,6 +42,7 @@ export class JokeComponent implements OnInit {
   }
 
   deleteAllJokes() {
+    alert('Chuck Norris doesn\'t give a warning before deleting.' );
     this.jokeService.deleteAllJokes()
       .subscribe(() => this.getAllJokes()
       );
