@@ -1,6 +1,6 @@
 # ChuckJoke
 
-This app must be running on `http://localhost:4200/` to interact with the C# services layer in the ChuckNorrisService Repo because of the Service Layer CORS settings.
+**Note:** This app must be running on `http://localhost:4200/` to interact with the C# services layer in the ChuckNorrisService Repo because of the Service Layer CORS settings.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
 
